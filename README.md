@@ -1,5 +1,9 @@
 # MovieJavan-Premium
 
+> [!TIP]
+> This script also has the premium of AnimeOn 
+
+
 ![screenshot of script](database/image.png)
 
 > [!TIP]
