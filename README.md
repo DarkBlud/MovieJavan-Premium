@@ -19,7 +19,7 @@
 > [!caution]
 > we have the owners permission I place the screenshot here
 
-![Permission of the owner of Movie Javan](per.png)
+![Permission of the owner of Movie Javan](database/per.png)
 
 
 --------------------------------
