@@ -1,9 +1,13 @@
-import requests
-from colorama import Fore
-from rich.console import Console
-from rich.table import Table
-from rich import box
-from rich import align
+try:
+    import os 
+    import requests
+    from colorama import Fore
+    from rich.console import Console
+    from rich.table import Table
+    from rich import box
+    from rich import align
+except ModuleNotFoundError : 
+    os.system("pip install requirements.txt")
 try:
     console = Console()
     print(f"""{Fore.RED} 
@@ -77,10 +81,12 @@ try:
                                 table.add_row(f"{a}",f"{url}")
                                 
                                 a += 1 
-                            
-                    console.print(table)
+                    if len(table.rows) != 0 :     
+                        console.print(table)
                         # else:
                         #     print(f"{Fore.RED}Error accessing {url}: Status Code {response.status_code}")
+                    else : 
+                        print(f"{Fore.RED}Couln't find a movie with that name...")
             else : 
                 print(f"{Fore.RED} \n You must enter a movie name !")
         except KeyboardInterrupt:
@@ -119,10 +125,13 @@ try:
                                 table.add_row(f"{a}",f"{url}")
                                 
                                 a += 1 
-                            
-                    console.print(table)
+                        
+                    if len(table.rows) != 0 :     
+                        console.print(table)
                         # else:
                         #     print(f"{Fore.RED}Error accessing {url}: Status Code {response.status_code}")
+                    else : 
+                        print(f"{Fore.RED}Couln't find a anime with that name...")
             else : 
                 print(f"{Fore.RED} \n You must enter a anime name !")
         except KeyboardInterrupt:
