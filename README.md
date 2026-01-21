@@ -16,11 +16,29 @@
    - Mac
 --------------------------------------
 ### Explanation :
-***so basicly what does this script do? we found the whole database of MovieJavan and place them in some text file then our script search the name of the movie or anime user wants then search it and gives the direct link to watch it***
+***This script searches through the complete MovieJavan database, which we have stored in a text file. When a user enters a movie or anime title, the script finds it in the database and returns a direct link for watching***
 > [!caution]
 > Make sure to read this part
 
-**for watching the movie you need to open the link that script gives you then open it in your browser search the name of movie or anime then select the quality you want (1080 or 720 or...) after that copy the link place it in VLC or open it in browser or download it and watch it peacfuly for FREE**
+1. Get the Link: The script will give you a direct link to the movie or anime you searched for.
+
+2. Open in Browser: Copy and paste this link into your web browser.
+
+3. Find Your Content: On the page that opens, search for your specific movie or anime title.
+
+4. Choose Quality: Select your preferred video quality (1080p, 720p, or other available options).
+
+5. Watch Your Way:
+
+   Option A: Copy the quality link and open it in VLC Media Player
+
+   Option B: Play it directly in your web browser
+
+   Option C: Download the file to watch offline
+
+Enjoy: Watch your movie or anime peacefully and completely FREE.
+
+
 > [!caution]
 > we have the owners permission I place the screenshot here
 
